@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+*{margin:0; padding:0; font-family:'Nanum Gothic', 나눔고딕, 돋움, Arial; line-height:1em; font-size:1em}
+img{border:0}
+
+fieldset, img{border:0; margin:0; padding:0}
+i, em, address{font-style:normal; font-weight:normal}
+a{text-decoration:none; color:#3a3a3a}
+ul, dl{list-style:none; line-height:0}
+
+.cf{ }
+.cf:after{clear:both; content:""; display:block}
+
+#menu{position:relative; width:100%; background:#fff; height:70px}
+#menu .inside{width:1100px; margin:0 auto; position:relative; height:70px}
+#menu .inside span{position:absolute; left:0; top:23px}
+#menu .inside .article{position:absolute; left:280px; width:820px; top:23px}
+#menu .inside .article li{margin:0 25px; float:left}
+#menu .inside .article li:last-child{margin-right:0}
+#menu .inside .article li a{font-weight:600; padding:12px 0}
+#menu .inside .article li a span{position:relative; left:0; top:0; color: #f00;}
+#menu .inside .article li a:hover{color:#ff654d; border-bottom:#ff654d solid 3px}
+
+#main{position:relative; height:700px}
+#main li{background-size:cover; height:700px; cursor:pointer}
+
+.section01, .section02, .section03, .section04, .section04_2, .section05, .section06, .section07, .section08, .section09, .section10, .section11, .section12, #intro01{width:100%; text-align:center; position:relative}
+.section01{background:url(images/01_back.jpg) no-repeat center; height:1106px}
+.section02{background:url(images/02_back.jpg) no-repeat center; height:1236px}
+.section03{background:url(images/03_back.jpg) no-repeat center; height:756px}
+.section04{background:url(images/04_back.jpg) no-repeat center; height:2064px}
+.section04_2{background:url(images/04_02_img_bg.jpg) no-repeat center; height:161px; margin-top:30px;}
+.section05{background:#f5624b; height:456px}
+.section06{background:url(images/06_back.jpg) no-repeat center #000; background-position:bottom; height:3015px}
+.section07{background:url(images/07_back.jpg) no-repeat top center; height:1196px}
+.section08{background:#f5624b; height:264px}
+.section09{background:url(images/09_back.jpg) no-repeat center; height:467px}
+
+.section10{background:url(images/10_back.jpg) no-repeat center; height:350px}
+.section11{background:url(images/11_back.jpg) no-repeat center; height:350px}
+.section12{background:#ffea01; height:179px}
+
+#db_area{position:relative; background:#fff; padding:45px; width:1010px; margin:0 auto; margin-top:40px}
+#db_area td{padding:20px 0; border-bottom:1px solid #000}
+#db_area td.col2{width:50%}
+#db_area td dt, #db_area td dd{float:left; text-align:left}
+#db_area td dt{font-size:18px; color:#424242; margin-top:10px; width:20%}
+#db_area td dd{width:80%}
+#db_area td .col1{display:block; width:100%;font-size:18px; color:#424242; text-align:left}
+#db_area td .col1 span{display:block; padding-bottom:15px}
+
+input[type="text"], input[type="password"]{width:85%}
+input[type="tel"] {width:16% !important}
+.email1{width:40% !important}
+.email2{width:35% !important}
+.privacy{background:#fff; font-size:14px; line-height:20px !important; color:#9b9b9b; border:0 !important}
+textarea{width:98% !important; font-size:14px !important; line-height:25px !important; font-weight:100 !important; height:60px}
+.btn_ok{text-align:center; margin-top:30px}
+
+#portfolio{position:relative; width:1200px; margin:0 auto}
+
+#portfolio .tab{position:relative; width:1100px; margin:0 auto; margin-top:40px}
+#portfolio .tab span{width:550px; text-align:center; float:left}
+#portfolio .tab span a{color:#fff; display:block; padding:12px 0}
+#portfolio .tab span a.on{background:#f5624b}
+#portfolio .tab span a.off{background:#2f2f2f}
+
+#portfolio .list{position:relative; width:1026px; margin:40px auto}
+#portfolio .list .aw_L{position:absolute; left:-75px; top:480px}
+#portfolio .list .aw_R{position:absolute; right:-75px; top:480px}
+#portfolio .list td{padding:8px}
+#portfolio .list td .box{width:323px; background:#fff}
+#portfolio .list td .box .photo{position:relative; height:302px; cursor:pointer}
+#portfolio .list td .box .photo .info{position:absolute; width:307px; left:8px; bottom:0; background:url(images/info_back.png); height:70px; margin-bottom:7px; text-align:center; letter-spacing:-0.5px}
+#portfolio .list td .box .photo .info .title{font-size:17px; color:#fff; display:block; margin:15px 0 5px}
+#portfolio .list td .box .photo .info .link{font-size:12px; color:#989898}
+#portfolio .list td .box .sort{padding:0 10px; text-align:center; height:55px}
+#portfolio .list td .box .sort .sort_01, #portfolio .list td .box .sort .sort_02, #portfolio .list td .box .sort .sort_03{color:#fff; width:96px; height:23px; padding-top:9px; margin-top:10px; display:block; float:left; font-size:13px}
+#portfolio .list td .box .sort .sort_01{background:url(images/sort_01.jpg)}
+#portfolio .list td .box .sort .sort_02{background:url(images/sort_02.jpg); margin:10px 6px}
+#portfolio .list td .box .sort .sort_03{background:url(images/sort_03.jpg)}
+#portfolio .slide_btn{position:relative; width:1026px; margin:0 auto; letter-spacing:10px}
+
+#quick{position:absolute; top:160px; width:168px; right:10px}
+#quick .quick_link{border:1px solid #3e3e3e; margin-bottom:7px}
+#quick li{position:relative; text-align:right; background:#fff; border-bottom:1px solid #c5c5c5}
+#quick li:last-child{border-bottom:0}
+#quick li a{display:block;padding:15px 18px; width:130px}
+#quick li a span{color:#ff654d; font-size:12px; font-weight:700; display:block; width:15px; position:absolute; left:10px}
+#quick li a p{color:#f00; font-weight:bold;}
+#quick li a:hover{background:#ff654d; color:#fff}
+#quick li:hover span{color:#fff !important}
+#quick li:hover p{color:#fff !important}
+#quick .banner{margin-bottom:7px}
+#quick .top{width:168px; text-align:center}
+
+.copy_area{background:#3a3a3a; height:260px; position:relative}
+.copy_area .inside{width:1100px; position:relative; margin:0 auto}
+.copy_area .inside .logo{position:absolute; top:50px; left:0}
+.copy_area .inside p{position:relative; margin-left:295px; font-size:14px; color:#ccc; padding-top:70px; line-height:20px}
+.copy_area .inside p span{color:#7d7d7d; text-align:center; width:41px; display:inline-block}
+
+#intro01{padding:90px 0; background:url(images/intro_bg.jpg) no-repeat top center;}
+#intro01 .intro_box{width:940px; padding:30px; margin:0 auto; background:#fff; border-top:1px solid #f5624b; box-shadow:2px 2px 8px #666; margin-top:60px;}
+#intro01 .intro_box .boxtitle{text-align:left; margin-bottom:30px; line-height: 0;}
+.intro_box ul{overflow:hidden;}
+.intro_box li{float:left; border:1px solid #d1d1d1; position:relative; margin-right:11px;}
+.intro_box li:nth-child(3n){margin-right:0;}
+.intro_box li:nth-child(1), .intro_box li:nth-child(2), .intro_box li:nth-child(3){margin-bottom:11px;}
+.intro_box li span.name{background:rgba(0,0,0,0.6); color:#fff; position:absolute; left:0; bottom:0; padding:15px 0; width:100%; font-size:1.2em;}
+#intro02{width:1000px; margin:0 auto; position:relative;}
+#intro02 .confac_map{position:absolute; bottom:304px; left:0;}
+
+/* 광고대행사 서브페이지 */
+.sub_top{width:100%; height:260px; background:url(images/subTop_bg.jpg) no-repeat center;}
+.sub_section01{width:1200px; margin:0 auto; text-align:center; line-height:0;}
+.ad_section{width:1110px; margin:0 auto; border-top:1px solid #8d8d8d; padding-top:15px; box-sizing:border-box;}
+.ad_list{width:360px; float:left; margin-right:15px; margin-bottom:15px;}
+.ad_list:nth-child(3n){margin-right:0;}
+.ad_list .thumb{position:relative; height:300px;}
+.ad_list .thumb a{display:block;}
+.ad_list .thumb .ad_info{position:absolute; left:0; bottom:0; width:100%; text-align:center; height:70px; letter-spacing:-0.5px; background:rgba(0,0,0,0.7);}
+.ad_list .thumb .ad_info .name{font-size:17px; color:#fff; margin:15px 0 5px;}
+.ad_list .thumb .ad_info .link{font-size:12px; color:#989898;}
+.ad_list .ad_part{text-align:center; background:#404040; padding:15px 10px; overflow:hidden;}
+.ad_list .ad_part li{width:106px; height:30px; float:left; line-height:30px; border-radius:30px; color:#fff; margin-right:11px; font-size:14px;}
+.ad_list .ad_part .part01{background:#f5624b; color:#fff;}
+.ad_list .ad_part .part02{background:#fff; color:#404040;}
+.ad_list .ad_part .part03{background:#282828; color:#fff; margin-right:0;}
