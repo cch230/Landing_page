@@ -8,6 +8,8 @@ It is a web site made with a request of System Integration Company
 ## 최철환
 ## Representative email : cch01024857239@gmail.com
 
+###도메인 호스팅 전, 개인서버 호스팅 된 사이트입니다. 
+
 # 웹사이트 화면 
 ## 그림을 클릭하면 사이트로 이동합니다
 [![Site Label](https://github.com/cch230/Landing_page/blob/master/site.png)](http://49.50.164.82:8080/landing_page/main.jsp)
